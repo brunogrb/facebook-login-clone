@@ -1,0 +1,155 @@
+* {
+  font-family: Arial;
+  margin: 0px;
+  padding: 0px;
+}
+
+input {
+  margin: 5px 0;
+}
+
+.form-group {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto 5px;
+}
+
+.facebook-logo {
+  height: 60px;
+  margin-left: 400px;
+  width: 160px;
+}
+
+#facebook-slogan {
+  color: rgb(66, 103, 178);;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0px;
+}
+
+#facebook-register {
+  box-shadow: inset 0px 1px 0px 0px #9acc85;
+  background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+  background-color: #74ad5a;
+  border: 1px solid #3b6e22;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+#facebook-register:hover {
+  background: linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+  background-color: #68a54b;
+}
+
+#facebook-register:active {
+  position: relative;
+  top: 1px;
+}
+
+.facebook-login {
+  display: flex;
+  margin-right: 230px;
+}
+
+#button-login {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  background-color: #007dc1;
+  border-radius: 3px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 3px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+}
+
+#button-login:hover {
+  background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  background-color: #0061a7;
+}
+
+#button-login:active {
+  position: relative;
+  top: 1px;
+}
+
+.form-control {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  background: rgb(230,235,240);
+  background: linear-gradient(90deg, rgba(230,235,240,1) 0%, rgba(198,208,219,1) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 500px;
+}
+
+.main-content input {
+  padding: 5px 0px;
+
+}
+
+.left-content {
+  margin-top: 20px;
+  width: 800px;
+  text-align: left;
+}
+
+.right-content {
+  margin-top: 20px;
+  width: 300px;
+}
+
+#facebook-networking {
+  margin-top: 20px;
+}
+
+.first-last-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first-last-name > input {
+  width: 45%;
+}
+
+.all-genders {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px 0px;
+}
+
+.all-genders > label {
+  margin-right: 7px;
+}
+
+#birthdate {
+  margin: 5px 0px;
+}
